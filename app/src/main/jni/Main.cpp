@@ -193,7 +193,7 @@ void *hack_thread(void *arg){
    }
    
    DobbyHook(
-       (void*)0x2ed3040,
+       (void*)(_Libil2cpp.startAddress + 0x2ed3040),
        (void*)hook_GetMoveSpeedForFPPMode,
        (void**)&orig_GetMoveSpeedForFPPMode
    );
