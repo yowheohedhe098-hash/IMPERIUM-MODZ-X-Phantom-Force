@@ -26,7 +26,7 @@ LOCAL_SRC_FILES := Munodz/$(TARGET_ARCH_ABI)/libMunodz.a
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/Munodz
 include $(PREBUILT_STATIC_LIBRARY)
 
-
+include $(CLEAR_VARS)
 LOCAL_MODULE := libcrypto
 LOCAL_SRC_FILES := curl/openssl-android-$(TARGET_ARCH_ABI)/lib/libcrypto.a
 include $(PREBUILT_STATIC_LIBRARY)
